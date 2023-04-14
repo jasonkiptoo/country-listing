@@ -17,7 +17,18 @@
 </template>
 
 <script>
-export default {};
+import axios from "axios"
+export default {
+
+    data(){
+        return{
+  countries: [],
+        }
+      
+
+    },
+
+};
 </script>
 
 <style scoped>
